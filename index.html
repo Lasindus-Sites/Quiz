@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Your Knowdlage</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAweome CDN Link for Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <!-- start Quiz button -->
+    <div class="start_btn"><button>අරඹන්න</button></div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>මෙම තරග වටය පිළිබඳව</span></div>
+        <div class="info-list">
+            <div class="info">1.   ඔබට ලැබෙන කාලය <span>තත්පර 15 </span> ක් පමණි.</div>
+            <div class="info">2.   ඔබ පිළිතුරක් තේරූ පසු එය නැවත් වෙනස් කල නොහැක.</div>
+            <div class="info">3.   කාලය අවසාන වූ විට ඔබට පිළිතුරු ලබා දිය නොහැක.</div>
+            <div class="info">4.   ඔබට තරගය පවත්වන අවස්ථාවේ ඉවත් විය නොහැක</div>
+            <div class="info">5.   නිවැරදි පිළිතුර ලබා දුන්විට ඔබට ලකුණු <span> 1ක් </span> ලැබේ.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">ඉවත්වන්න</button>
+            <button class="restart">ඉදිරියට</button>
+
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">ප්‍රශ්න තරගය</div>
+            <div class="timer">
+                <div class="time_left_txt">කාලය</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Here I've inserted question from JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Here I've inserted options from JavaScript -->
+            </div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Here I've inserted Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn">මීළග</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">ඔබ තරගය සම්පූර්ණ කර ඇත!</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">නැවත</button>
+            <button class="quit">ඉවත්වන්න</button>
+            <a href="https://telegram.dog/NiupunDinujaya"><button class="report">සම්බන්ධ කරගන්න</button></a>
+        </div>
+    </div>
+
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="js/questions.js"></script>
+
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
